@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"tla-backend/pkg/go-kit/ids"
+	"github.com/duongtuttbn/shared-resource/go-kit/ids"
 )
 
 func TestNewUUID(t *testing.T) {

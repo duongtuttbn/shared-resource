@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"strconv"
 	"time"
-	"tla-backend/pkg/go-kit/dt"
-	"tla-backend/pkg/go-kit/kit"
+	"github.com/duongtuttbn/shared-resource/go-kit/dt"
+	"github.com/duongtuttbn/shared-resource/go-kit/kit"
 
 	"github.com/awa/go-iap/playstore"
 	"github.com/pkg/errors"

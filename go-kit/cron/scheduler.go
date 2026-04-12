@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"sync"
 	"time"
-	"tla-backend/pkg/go-kit/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 )
 
 type Scheduler struct {

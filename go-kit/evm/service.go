@@ -11,7 +11,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/samber/lo"
 	"golang.org/x/crypto/sha3"
-	"tla-backend/pkg/go-kit/dt"
+	"github.com/duongtuttbn/shared-resource/go-kit/dt"
 )
 
 type Service interface {

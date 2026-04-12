@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"testing"
 	"time"
-	"tla-backend/pkg/go-kit/cron"
-	"tla-backend/pkg/go-kit/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/cron"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 
 	"github.com/samber/lo"
 )

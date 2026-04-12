@@ -2,8 +2,8 @@ package ginauth
 
 import (
 	"go.uber.org/fx"
-	"tla-backend/pkg/go-fx/ginfx"
-	"tla-backend/pkg/go-fx/jwtfx"
+	"github.com/duongtuttbn/shared-resource/go-fx/ginfx"
+	"github.com/duongtuttbn/shared-resource/go-fx/jwtfx"
 )
 
 // NewJwtModule register JwtEncoder and JwtDecoder.

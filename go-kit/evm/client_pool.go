@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"sync"
 	"time"
-	"tla-backend/pkg/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"slices"
 	"strings"
-	"tla-backend/pkg/go-kit/dt"
-	"tla-backend/pkg/go-kit/kit"
-	"tla-backend/pkg/go-kit/lerror"
+	"github.com/duongtuttbn/shared-resource/go-kit/dt"
+	"github.com/duongtuttbn/shared-resource/go-kit/kit"
+	"github.com/duongtuttbn/shared-resource/go-kit/lerror"
 
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"

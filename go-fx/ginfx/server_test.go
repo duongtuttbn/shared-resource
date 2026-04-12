@@ -2,7 +2,7 @@ package ginfx_test
 
 import (
 	"testing"
-	"tla-backend/pkg/go-fx/ginfx"
+	"github.com/duongtuttbn/shared-resource/go-fx/ginfx"
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"

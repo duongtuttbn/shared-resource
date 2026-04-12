@@ -4,7 +4,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxevent"
-	"tla-backend/pkg/go-kit/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 	"time"
-	"tla-backend/pkg/go-kit/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 
 	"github.com/redis/go-redis/v9"
 	"github.com/stretchr/testify/require"

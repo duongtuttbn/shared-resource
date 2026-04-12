@@ -15,9 +15,9 @@ import (
 	"github.com/go-resty/resty/v2"
 	"github.com/pkg/errors"
 	"github.com/samber/lo"
-	"tla-backend/pkg/go-kit"
-	"tla-backend/pkg/go-kit/collections"
-	"tla-backend/pkg/go-kit/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/collections"
+	"github.com/duongtuttbn/shared-resource/go-kit/kit"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 )
 
 var _ V2Oauth = (*v2OauthImpl)(nil)

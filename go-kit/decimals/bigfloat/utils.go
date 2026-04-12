@@ -4,7 +4,7 @@ import (
 	"golang.org/x/exp/constraints"
 	"math"
 	"math/big"
-	"tla-backend/pkg/go-kit/decimals/bigint"
+	"github.com/duongtuttbn/shared-resource/go-kit/decimals/bigint"
 )
 
 func FromInt(x *big.Int) *big.Float {

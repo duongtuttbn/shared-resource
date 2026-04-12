@@ -5,9 +5,9 @@ import (
 	"errors"
 	"net/http"
 	"strings"
-	"tla-backend/pkg/go-kit/core"
-	"tla-backend/pkg/go-kit/lerror"
-	"tla-backend/pkg/go-kit/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/core"
+	"github.com/duongtuttbn/shared-resource/go-kit/lerror"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

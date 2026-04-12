@@ -5,7 +5,7 @@ import (
 	"go.uber.org/fx"
 	"gorm.io/gorm"
 	"time"
-	"tla-backend/pkg/go-kit/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 )
 
 // PostgresqlConfig hold config for postgresql.

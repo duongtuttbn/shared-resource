@@ -8,7 +8,7 @@ import (
 	"go.uber.org/fx"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"tla-backend/pkg/go-kit/db"
+	"github.com/duongtuttbn/shared-resource/go-kit/db"
 )
 
 // NewModule behaves like gormx.NewModule with PostgreSQL dialect registered.

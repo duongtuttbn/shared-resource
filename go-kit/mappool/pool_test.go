@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 	"time"
-	"tla-backend/pkg/go-kit/mappool"
+	"github.com/duongtuttbn/shared-resource/go-kit/mappool"
 
 	"github.com/stretchr/testify/require"
 )

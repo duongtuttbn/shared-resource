@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 	"strings"
-	"tla-backend/pkg/go-kit/decimals/bigfloat"
-	"tla-backend/pkg/go-kit/decimals/bigint"
+	"github.com/duongtuttbn/shared-resource/go-kit/decimals/bigfloat"
+	"github.com/duongtuttbn/shared-resource/go-kit/decimals/bigint"
 
 	"golang.org/x/exp/constraints"
 )

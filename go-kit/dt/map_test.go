@@ -3,7 +3,7 @@ package dt_test
 import (
 	"encoding/json"
 	"testing"
-	"tla-backend/pkg/go-kit/dt"
+	"github.com/duongtuttbn/shared-resource/go-kit/dt"
 
 	"github.com/stretchr/testify/require"
 )

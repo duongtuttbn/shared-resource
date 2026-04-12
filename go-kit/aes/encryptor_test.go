@@ -2,7 +2,7 @@ package aes_test
 
 import (
 	"testing"
-	"tla-backend/pkg/go-kit/aes"
+	"github.com/duongtuttbn/shared-resource/go-kit/aes"
 
 	"github.com/stretchr/testify/require"
 )

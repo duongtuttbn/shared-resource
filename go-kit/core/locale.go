@@ -2,7 +2,7 @@ package core
 
 import (
 	"context"
-	"tla-backend/pkg/go-kit/dt"
+	"github.com/duongtuttbn/shared-resource/go-kit/dt"
 
 	"github.com/gin-gonic/gin"
 	"github.com/samber/lo"

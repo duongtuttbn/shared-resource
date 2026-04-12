@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"slices"
 	"strings"
-	"tla-backend/pkg/go-kit/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"tla-backend/pkg/go-kit/kit"
-	"tla-backend/pkg/go-kit/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/kit"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 )
 
 var _ V2 = (*v2Impl)(nil)

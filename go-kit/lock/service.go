@@ -3,7 +3,7 @@ package lock
 import (
 	"context"
 	"time"
-	"tla-backend/pkg/go-kit/log"
+	"github.com/duongtuttbn/shared-resource/go-kit/log"
 )
 
 type service struct {

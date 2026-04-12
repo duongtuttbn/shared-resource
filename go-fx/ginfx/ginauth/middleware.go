@@ -1,9 +1,9 @@
 package ginauth
 
 import (
-	"tla-backend/pkg/go-fx/ginfx"
-	"tla-backend/pkg/go-fx/jwtfx"
-	"tla-backend/pkg/go-kit/core"
+	"github.com/duongtuttbn/shared-resource/go-fx/ginfx"
+	"github.com/duongtuttbn/shared-resource/go-fx/jwtfx"
+	"github.com/duongtuttbn/shared-resource/go-kit/core"
 )
 
 func NewJwtMiddleware(jwtService *jwtfx.JwtService) ginfx.Middleware {
