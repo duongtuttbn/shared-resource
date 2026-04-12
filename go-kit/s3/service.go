@@ -124,5 +124,7 @@ func (s *service) getClient(ctx context.Context) (*s3.Client, error) {
 		return nil, err
 	}
 
-	return s3.NewFromConfig(c), nil
+	return s3.NewFromConfig(c, func(o *s3.Options) {
+		o.UsePathStyle = true
+	}), nil
 }
