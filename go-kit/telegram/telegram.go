@@ -1,7 +1,6 @@
 package telegram
 
 import (
-	"chidoshy/death-fun-backend/model"
 	"crypto/hmac"
 	"crypto/sha256"
 	"encoding/hex"
@@ -11,7 +10,14 @@ import (
 	"sort"
 )
 
-func VerifyTelegramAuthorization(data, token string) (*model.TelegramInfo, error) {
+type TelegramInfo struct {
+	Id        int64  `json:"id"`
+	FirstName string `json:"first_name"`
+	LastName  string `json:"last_name"`
+	Username  string `json:"username"`
+}
+
+func VerifyTelegramAuthorization(data, token string) (*TelegramInfo, error) {
 	params, _ := url.ParseQuery(data)
 	var authData = make([]string, 0)
 	var hash = ""
@@ -37,7 +43,7 @@ func VerifyTelegramAuthorization(data, token string) (*model.TelegramInfo, error
 		return nil, errors.New("unauthorized")
 	}
 
-	var userInfo *model.TelegramInfo
+	var userInfo *TelegramInfo
 	err := json.Unmarshal([]byte(params["user"][0]), &userInfo)
 	if err != nil {
 		return nil, err
